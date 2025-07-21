@@ -4,7 +4,7 @@ import { ButtonProps } from "@/interfaces";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Button: React.FC<ButtonProps> = ({ title, styles }) => {
   return (
-    <button className="sm:rounded-sm lg:rounded-lg rounded-full">
+    <button className="sm:rounded-sm md:rounded-md lg:rounded-lg rounded-full">
       {title}
     </button>
   );
