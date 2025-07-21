@@ -3,10 +3,11 @@ import HOUSE_IMAGE from "@/public/assets/house.png";
 import STAR_IMAGE from "@/public/assets/star.png";
 import React from "react";
 import Pill from "./Pill";
+import Button from "./Button";
 
 const Card: React.FC = () => {
   return (
-    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg ">
+    <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg mt-9 ">
       <Image
         className="rounded-lg"
         src={HOUSE_IMAGE}
@@ -108,6 +109,7 @@ const Card: React.FC = () => {
           $2,450<span className=" text-[14px] text-[#787878]">/n</span>
         </p>
       </div>
+      <Button title="Rent" styles="md" />
     </div>
   );
 };
